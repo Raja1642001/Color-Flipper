@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Apple Chancery',cursive;
+    background-color: whitesmoke;
+}
+#heading{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    color: #000;
+}
+#color{
+    float: right;
+    margin-right: 15px;
+}
+#wrap{
+    margin: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+#wrap_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#ffffff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Apple Chancery',cursive;
+} 
+button:hover {
+    background-color:blue;
+    color: #ffffff;
+}
+
+
